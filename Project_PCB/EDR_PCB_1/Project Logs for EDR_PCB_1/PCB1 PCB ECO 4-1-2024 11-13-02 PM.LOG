@@ -1,0 +1,16 @@
+Added Component: Designator=J2(TE_5-1634556-0)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "5-1634556-0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/5-1634556-0/TE%20Connectivity%20AMP%20Connectors/view-part/468364/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=PH+ Pin=J2-1
+Added Pin To Net: NetName=PH- Pin=J2-2
+Added Pin To Net: NetName=PH- Pin=J2-3
+Added Pin To Net: NetName=PH- Pin=J2-4
+Added Pin To Net: NetName=PH- Pin=J2-5
+Added Pin To Net: NetName=GND Pin=U6-8
+Added Member To Class: ClassName=U_pH_sensor Member=Component J2 5-1634556-0
+Added Member To Class: ClassName=U_MCU Member=Component MCU ESP8266-12E/ESP-12E

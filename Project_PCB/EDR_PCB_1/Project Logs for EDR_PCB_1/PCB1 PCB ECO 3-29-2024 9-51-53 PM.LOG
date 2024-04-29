@@ -1,0 +1,12 @@
+Change Component Footprint: Designator=U? Old Footprint=ESFS-QFN-32_L New Footprint=XCVR_ESP8266-12E/ESP-12E
+Change Component Comment : Designator=U? Old Comment=ESP8266EX New Comment=ESP8266-12E/ESP-12E
+Change Managed Component Library Link : Designator=U? Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=8597A7DA-F84B-4F40-B8BF-7922F7B5213B New ItemGUID= Old RevisionGUID=5B106AEC-3F5A-4484-9A05-DFE9F752C93D New RevisionGUID=
+Change component parameters: Designator = "U?" ("U?"); Footprint = "ESFS-QFN-32_L"; UniqueID = "\NWSPTCXC" ("\NWSPTCXC")
+Change component parameters (AddParameter): Name = "Availability"; Value = "Not in stock"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/ESP8266-12E/ESP-12E/AI-Thinker/view-part/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "AI-Thinker"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "ESP8266-12E/ESP-12E"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/ESP8266-12E/ESP-12E/AI-Thinker/view-part/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"

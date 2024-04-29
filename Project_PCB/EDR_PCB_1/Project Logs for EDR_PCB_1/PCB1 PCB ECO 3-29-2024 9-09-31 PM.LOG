@@ -1,0 +1,9 @@
+Added Component: Designator=U?(ESFS-QFN-32_L)
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_en.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Rev. 5.4, 04/2017"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Espressif Systems"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://espressif.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "SurfaceMount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "32-Pin Quad Falt No-Lead, Body 5 x 5 mm, Pitch 0.5 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "QFN-32"; VariantName = "[No Variations]"
+Added Class: Name=MCU

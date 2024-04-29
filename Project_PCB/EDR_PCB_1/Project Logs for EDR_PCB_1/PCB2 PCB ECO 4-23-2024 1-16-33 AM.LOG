@@ -1,0 +1,41 @@
+Removed Pin From Net: NetName=D_OUT Pin=SW1-4
+Removed Pin From Net: NetName=Senser_OUT Pin=SW1-5
+Removed Pin From Net: NetName=A_OUT Pin=SW1-6
+Change Component Footprint: Designator=SW1 Old Footprint=FP-JS202011CQN-MFG New Footprint=ESWI-EG1218_V
+Change Component Comment : Designator=SW1 Old Comment=JS202011CQN New Comment=EG1218
+Change Component Designator: OldDesignator=3 NewDesignator=U9
+Change Managed Component Library Link : Designator=SW1 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=EF8880F8-1BAF-4296-8B61-9D1641EC5496 New ItemGUID=107BB5E3-398F-4DEE-9B4F-6EA0D7487A76 Old RevisionGUID=BAE33449-4C78-4A58-B84D-4F0BC0DE0595 New RevisionGUID=D97C5B47-6491-4721-B78E-E3E0CEB32BCA
+Change component parameters: Designator = "SW1" ("SW1"); Footprint = "FP-JS202011CQN-MFG"; UniqueID = "\JNPGTORP\WSRUBVLH" ("\JNPGTORP\WSRUBVLH")
+Change component parameters (AddParameter): Name = "Case\Package"; Value = "SOT-23-5"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.e-switch.ch/en/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.e-switch.com/system/asset/product_line/data_sheet/119/EG.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DatasheetVersion"; Value = "Oct-15"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dropout Voltage"; Value = "300 mV"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "1.3 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "3 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Input Voltage"; Value = "8 V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "85 degC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Ouput Current"; Value = "150 mA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Power Dissipation"; Value = "250 mW"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Input Voltage"; Value = "4.3 V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-40 degC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Nominal Output Voltage"; Value = "3.3 V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Output Current"; Value = "150 mA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Output Voltage"; Value = "3.3 V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Outputs"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Quantity"; Value = "3000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "3-Pin Through Hole Device, Body 11.6 x 4 mm, Pitch 2.5 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "EG1218"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pins"; Value = "5"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power Rating"; Value = "250 mW"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHSCompliant"; Value = "true"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = "1.8 mm"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=A_OUT Pin=SW1-1
+Added Pin To Net: NetName=Senser_OUT Pin=SW1-2
+Added Pin To Net: NetName=D_OUT Pin=SW1-3

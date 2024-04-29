@@ -1,0 +1,76 @@
+Change Component Comment : Designator=R? Old Comment=ERA-6AEB103V New Comment=10K
+Change Component Comment : Designator=R? Old Comment=ERA-6AEB103V New Comment=10K
+Change Component Comment : Designator=R? Old Comment=ERA-6AEB103V New Comment=10K
+Change Component Comment : Designator=R? Old Comment=ERA-6AEB103V New Comment=10K
+Change Component Comment : Designator=C? Old Comment=GRM31M1X1H104JA01L New Comment=100uF
+Change Component Designator: OldDesignator=C? NewDesignator=C1
+Change Component Designator: OldDesignator=R? NewDesignator=R1
+Change Component Designator: OldDesignator=R? NewDesignator=R2
+Change Component Designator: OldDesignator=R? NewDesignator=R3
+Change Component Designator: OldDesignator=R? NewDesignator=R4
+Added Component: Designator=J1(FP-B6B-XH-AM_LF_SN-MFG)
+Add component (AddParameter): Name = "Connector Type"; Value = "Header"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Finish - Mating"; Value = "TIN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Brass"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Copper"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Shape"; Value = "Square"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Type"; Value = "Male Pin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "3A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fastening Type"; Value = "Detent"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Flammability Rating"; Value = "UL94 V-0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "7mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Insulation Color"; Value = "Natural"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Insulation Material"; Value = "Nylon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "17.4mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mated Stacking Heights"; Value = "9.8mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-25°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Poles"; Value = "6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions"; Value = "6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "2.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "XH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Shape"; Value = "Straight"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "Press-Fit"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "250V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "5.75mm"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5 Pin=J1-3
+Added Net: Name=+5
+Added Pin To Net: NetName=DTR Pin=J1-6
+Added Pin To Net: NetName=DTR Pin=MCU-18
+Added Pin To Net: NetName=DTR Pin=R3-2
+Added Net: Name=DTR
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=GND Pin=J1-2
+Added Pin To Net: NetName=GND Pin=MCU-15
+Added Pin To Net: NetName=GND Pin=R4-2
+Added Net: Name=GND
+Added Pin To Net: NetName=NetMCU_3 Pin=MCU-3
+Added Pin To Net: NetName=NetMCU_3 Pin=R2-1
+Added Net: Name=NetMCU_3
+Added Pin To Net: NetName=NetMCU_16 Pin=MCU-16
+Added Pin To Net: NetName=NetMCU_16 Pin=R4-1
+Added Net: Name=NetMCU_16
+Added Pin To Net: NetName=RST Pin=MCU-1
+Added Pin To Net: NetName=RST Pin=R1-2
+Added Net: Name=RST
+Added Pin To Net: NetName=RX Pin=J1-5
+Added Pin To Net: NetName=RX Pin=MCU-21
+Added Net: Name=RX
+Added Pin To Net: NetName=TX Pin=J1-4
+Added Pin To Net: NetName=TX Pin=MCU-22
+Added Net: Name=TX
+Added Pin To Net: NetName=VCC Pin=C1-2
+Added Pin To Net: NetName=VCC Pin=J1-1
+Added Pin To Net: NetName=VCC Pin=MCU-8
+Added Pin To Net: NetName=VCC Pin=R1-1
+Added Pin To Net: NetName=VCC Pin=R2-2
+Added Pin To Net: NetName=VCC Pin=R3-1
+Added Net: Name=VCC
+Added Member To Class: ClassName=MCU Member=Component J1 B6B-XH-AM(LF)(SN)
+Added Member To Class: ClassName=MCU Member=Component R1 10K
+Added Member To Class: ClassName=MCU Member=Component R3 10K
+Added Member To Class: ClassName=MCU Member=Component R4 10K

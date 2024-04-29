@@ -1,0 +1,37 @@
+Removed Pin From Net: NetName=GND Pin=U6-8
+Change Component Footprint: Designator=U6 Old Footprint=N0016A New Footprint=D0016A_L
+Change Component Comment : Designator=U6 Old Comment=SN74HC153N New Comment=SN74HC153DR
+Change Managed Component Library Link : Designator=U6 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=845AA191-CC64-458C-9FAC-7650C0EE6468 New ItemGUID=8FA49FDE-D16C-42D4-93F0-934BF6F925EB Old RevisionGUID=3FFA5940-F062-41D2-B8A1-2972716B35B2 New RevisionGUID=338170FC-EE0A-469D-B695-3F2064D46A7C
+Change component parameters: Designator = "U6" ("U6"); Footprint = "N0016A"; UniqueID = "\TBMQMPRB\UOIDEVUS" ("\TBMQMPRB\UOIDEVUS")
+Change component parameters (AddParameter): Name = "Bits(#)"; Value = "4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Channels(#)"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Code_JEDEC"; Value = "MS-012 variation AC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Configuration"; Value = "4:1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DatasheetVersion"; Value = "SCLS112D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "F @ Nom Voltage(Max)(Mhz)"; Value = "28"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Function"; Value = "Encoder/Multiplexer"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Generic Part Number"; Value = "SN74HC153"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ICC @ Nom Voltage(Max)(mA)"; Value = "8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Input Type"; Value = "LVTTL/CMOS"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature Range(C)"; Value = "-40 to 85"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Output Drive (IOL/IOH)(Max)(mA)"; Value = "7.8/-7.8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Output Type"; Value = "CMOS"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "D0016A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rating"; Value = "Catalog"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Schmitt Trigger"; Value = "No"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Technology Family"; Value = "HC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "tpd @ Nom Voltage(Max)(ns)"; Value = "38"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Standard"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VCC(Max)(V)"; Value = "6"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VCC(Min)(V)"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage(Nom)(V)"; Value = "3.3,5"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetMCU_17 Pin=P1-2
+Added Pin To Net: NetName=NetMCU_17 Pin=R40-2
+Added Pin To Net: NetName=GND Pin=U6-1
+Change Class Name : Old Net Name=MCU New Net Name=U_MCU
+Change Class Name : Old Net Name=pH_sensor New Net Name=U_pH_sensor
+Change Class Name : Old Net Name=Power_supply New Net Name=U_Power_supply
+Change Class Name : Old Net Name=TBD_Sensor New Net Name=U_TBD_Sensor
+Change Class Name : Old Net Name=TDS_sensor New Net Name=U_TDS_sensor
+Change Class Name : Old Net Name=Temp_sensor New Net Name=U_Temp_sensor

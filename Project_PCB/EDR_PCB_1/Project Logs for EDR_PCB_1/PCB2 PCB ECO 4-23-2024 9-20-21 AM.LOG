@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=GND Pin=R33-1
+Removed Pin From Net: NetName=NetJ6_2 Pin=R33-2
+Change Component Footprint: Designator=R33 Old Footprint=RESC2013X60X40LL20T25_A New Footprint=RESC3216X70X50LL20T25
+Change Managed Component Library Link : Designator=R33 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=88C0399B-4929-48B0-91FC-CD3C5B951474 New ItemGUID=2F35333A-D8CC-43FA-8140-FABD312EFA0D Old RevisionGUID=937A3D84-C7F8-4C89-96AA-A90A7723A6F7 New RevisionGUID=9E47A333-7125-43FD-961D-513E155FB3CE
+Change component parameters: Designator = "R33" ("R33"); Footprint = "RESC2013X60X40LL20T25_A"; UniqueID = "\RMMETWGR\GMHRDBGW" ("\RMMETWGR\GMHRDBGW")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "ERA8AEB103V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetJ6_2 Pin=R33-1
+Added Pin To Net: NetName=GND Pin=R33-2

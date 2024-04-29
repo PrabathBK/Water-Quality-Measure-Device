@@ -1,0 +1,85 @@
+Removed Pin From Net: NetName=GND Pin=LED_G-2
+Removed Pin From Net: NetName=D_OUT Pin=LED_R1-2
+Removed Pin From Net: NetName=GND Pin=LED_R2-2
+Removed Pin From Net: NetName=GND Pin=LED_R3-2
+Removed Pin From Net: NetName=DOUT Pin=LED_R-2
+Change Component Footprint: Designator=LED_G Old Footprint=AVAG-HSMX-C190_V New Footprint=LEDC2012X90N
+Change Component Footprint: Designator=LED_R1 Old Footprint=AVAG-HSMX-C190_V New Footprint=LEDC2012X90N
+Change Component Footprint: Designator=LED_R2 Old Footprint=AVAG-HSMX-C190_V New Footprint=LEDC2012X90N
+Change Component Footprint: Designator=LED_R3 Old Footprint=AVAG-HSMX-C190_V New Footprint=LEDC2012X90N
+Change Component Footprint: Designator=LED_R Old Footprint=AVAG-HSMX-C190_V New Footprint=LEDC2012X90N
+Change Component Comment : Designator=LED_G Old Comment=HSMY-C190 New Comment=HSMW-C170-U0000
+Change Component Comment : Designator=LED_R1 Old Comment=HSMY-C190 New Comment=HSMW-C170-U0000
+Change Component Comment : Designator=LED_R2 Old Comment=HSMY-C190 New Comment=HSMW-C170-U0000
+Change Component Comment : Designator=LED_R3 Old Comment=HSMY-C190 New Comment=HSMW-C170-U0000
+Change Component Comment : Designator=LED_R Old Comment=HSMY-C190 New Comment=HSMW-C170-U0000
+Change Managed Component Library Link : Designator=LED_G Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=3851DBCE-2014-4693-A982-405A80EA48D4 New ItemGUID= Old RevisionGUID=0053F52F-6364-4E3B-8FF2-8870B190B2BE New RevisionGUID=
+Change Managed Component Library Link : Designator=LED_R1 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=3851DBCE-2014-4693-A982-405A80EA48D4 New ItemGUID= Old RevisionGUID=0053F52F-6364-4E3B-8FF2-8870B190B2BE New RevisionGUID=
+Change Managed Component Library Link : Designator=LED_R2 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=3851DBCE-2014-4693-A982-405A80EA48D4 New ItemGUID= Old RevisionGUID=0053F52F-6364-4E3B-8FF2-8870B190B2BE New RevisionGUID=
+Change Managed Component Library Link : Designator=LED_R3 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=3851DBCE-2014-4693-A982-405A80EA48D4 New ItemGUID= Old RevisionGUID=0053F52F-6364-4E3B-8FF2-8870B190B2BE New RevisionGUID=
+Change Managed Component Library Link : Designator=LED_R Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=3851DBCE-2014-4693-A982-405A80EA48D4 New ItemGUID= Old RevisionGUID=0053F52F-6364-4E3B-8FF2-8870B190B2BE New RevisionGUID=
+Change component parameters: Designator = "LED_G" ("LED_G"); Footprint = "AVAG-HSMX-C190_V"; UniqueID = "\FFWTGYWN\RMCMNBFO" ("\FFWTGYWN\RMCMNBFO")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://componentsearchengine.com/Datasheets/2/HSMW-C170-U0000.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.9mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Avago Technologies"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "HSMW-C170-U0000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "630-HSMW-C170-U0000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Broadcom-Avago/HSMW-C170-U0000?qs=tMOYG%252Bw4%252BLwGyeHODzQdug%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "LED_R" ("LED_R"); Footprint = "AVAG-HSMX-C190_V"; UniqueID = "\FFWTGYWN\CQEQNWXZ" ("\FFWTGYWN\CQEQNWXZ")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://componentsearchengine.com/Datasheets/2/HSMW-C170-U0000.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.9mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Avago Technologies"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "HSMW-C170-U0000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "630-HSMW-C170-U0000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Broadcom-Avago/HSMW-C170-U0000?qs=tMOYG%252Bw4%252BLwGyeHODzQdug%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "LED_R1" ("LED_R1"); Footprint = "AVAG-HSMX-C190_V"; UniqueID = "\JNPGTORP\OWJDCUYK" ("\JNPGTORP\OWJDCUYK")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://componentsearchengine.com/Datasheets/2/HSMW-C170-U0000.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.9mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Avago Technologies"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "HSMW-C170-U0000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "630-HSMW-C170-U0000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Broadcom-Avago/HSMW-C170-U0000?qs=tMOYG%252Bw4%252BLwGyeHODzQdug%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "LED_R2" ("LED_R2"); Footprint = "AVAG-HSMX-C190_V"; UniqueID = "\JNPGTORP\DGXLOSPG" ("\JNPGTORP\DGXLOSPG")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://componentsearchengine.com/Datasheets/2/HSMW-C170-U0000.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.9mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Avago Technologies"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "HSMW-C170-U0000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "630-HSMW-C170-U0000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Broadcom-Avago/HSMW-C170-U0000?qs=tMOYG%252Bw4%252BLwGyeHODzQdug%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "LED_R3" ("LED_R3"); Footprint = "AVAG-HSMX-C190_V"; UniqueID = "\RMMETWGR\CCUXPMTH" ("\RMMETWGR\CCUXPMTH")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://componentsearchengine.com/Datasheets/2/HSMW-C170-U0000.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.9mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Avago Technologies"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "HSMW-C170-U0000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "630-HSMW-C170-U0000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Broadcom-Avago/HSMW-C170-U0000?qs=tMOYG%252Bw4%252BLwGyeHODzQdug%3D%3D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=LED_G-1
+Added Pin To Net: NetName=D_OUT Pin=LED_R1-1
+Added Pin To Net: NetName=GND Pin=LED_R2-1
+Added Pin To Net: NetName=GND Pin=LED_R3-1
+Added Pin To Net: NetName=DOUT Pin=LED_R-1
+Added Pin To Net: NetName=NetLED_G_2 Pin=LED_G-2
+Added Pin To Net: NetName=NetLED_G_2 Pin=R48-2
+Added Net: Name=NetLED_G_2
+Added Pin To Net: NetName=NetLED_R1_2 Pin=LED_R1-2
+Added Pin To Net: NetName=NetLED_R1_2 Pin=R6-2
+Added Net: Name=NetLED_R1_2
+Added Pin To Net: NetName=NetLED_R2_2 Pin=LED_R2-2
+Added Pin To Net: NetName=NetLED_R2_2 Pin=R15-2
+Added Net: Name=NetLED_R2_2
+Added Pin To Net: NetName=NetLED_R3_2 Pin=LED_R3-2
+Added Pin To Net: NetName=NetLED_R3_2 Pin=R21-2
+Added Net: Name=NetLED_R3_2
+Added Pin To Net: NetName=NetLED_R_2 Pin=LED_R-2
+Added Pin To Net: NetName=NetLED_R_2 Pin=R46-2
+Added Net: Name=NetLED_R_2

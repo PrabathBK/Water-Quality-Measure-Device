@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=GND Pin=SW2-2
+Removed Member From Class: ClassName=U_MCU Member=SW2
+Added Pin To Net: NetName=1G Pin=MCU-19
+Added Pin To Net: NetName=1G Pin=U6-1
+Added Net: Name=1G
+Added Pin To Net: NetName=2G Pin=MCU-20
+Added Pin To Net: NetName=2G Pin=U6-15
+Added Net: Name=2G
