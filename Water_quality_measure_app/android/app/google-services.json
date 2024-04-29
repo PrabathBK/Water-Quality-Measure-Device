@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "693176023275",
+    "firebase_url": "https://water-quality-measuring-6f7aa-default-rtdb.firebaseio.com",
+    "project_id": "water-quality-measuring-6f7aa",
+    "storage_bucket": "water-quality-measuring-6f7aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693176023275:android:00c04e27ad47b9ff0226ae",
+        "android_client_info": {
+          "package_name": "com.example.hydrolink_testing"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGDSiPxgnVl8zBjkA_UsgWZNUkuS-Ym_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693176023275:android:c16ad4c12ffcb5f80226ae",
+        "android_client_info": {
+          "package_name": "com.example.my_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGDSiPxgnVl8zBjkA_UsgWZNUkuS-Ym_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693176023275:android:f1c24b6dd675a79f0226ae",
+        "android_client_info": {
+          "package_name": "com.example.water_quality_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGDSiPxgnVl8zBjkA_UsgWZNUkuS-Ym_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
