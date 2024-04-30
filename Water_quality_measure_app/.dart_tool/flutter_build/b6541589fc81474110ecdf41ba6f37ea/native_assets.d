@@ -1,0 +1,1 @@
+ C:\\Users\\praba\\OneDrive\\Documents\\GitHub\\Water-Quality-Measure-Device\\Water_quality_measure_app\\.dart_tool\\flutter_build\\b6541589fc81474110ecdf41ba6f37ea\\native_assets.yaml: 
