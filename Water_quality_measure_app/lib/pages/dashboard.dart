@@ -117,6 +117,7 @@ class _DashboardState extends State<Dashboard> {
                     ),
                     ButtonBar(
                       alignment: MainAxisAlignment.center,
+                      buttonPadding: EdgeInsets.all(20),
                       children: [
                         ElevatedButton(
                           onPressed: () {
@@ -137,7 +138,7 @@ class _DashboardState extends State<Dashboard> {
                             backgroundColor:
                                 Theme.of(context).colorScheme.primary,
                             shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(10),
+                              borderRadius: BorderRadius.circular(20),
                             ),
                           ),
                         ),
@@ -199,18 +200,34 @@ class _DashboardState extends State<Dashboard> {
               ),
               Row(
                 children: [
-                  Text('Start'),
-                  Switch(
-                    value: _switchValue,
-                    onChanged: (value) {
-                      setState(() {
-                        _switchValue = value;
-                      });
-                    },
+                  Center(
+                    child: Column(
+                      mainAxisSize: MainAxisSize
+                          .min, // This will size the column to fit its children.
+                      children: [
+                        Text(
+                          'Start',
+                          style: TextStyle(
+                            fontSize: 16,
+                            fontWeight: FontWeight.bold,
+                            color: Theme.of(context).colorScheme.onPrimary,
+                          ),
+                        ),
+                        Switch(
+                          value: _switchValue,
+                          onChanged: (value) {
+                            manSwitchChanged(
+                                value); // Call the appropriate function to handle the state change
+                          },
+                        ),
+                      ],
+                    ),
                   )
-                  // TextContainerPage(text: 'This is the text container page.'),
                 ],
               ),
+              Row(
+                  //Add text field as output
+                  )
             ],
           );
   }
