@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.example.hydrolink_testing.app-merged_res-35:/mipmap-xxxhdpi_hydrolink.png.flat",
+        "source": "com.example.hydrolink_testing.app-main-29:/mipmap-xxxhdpi/hydrolink.png"
+    },
+    {
+        "merged": "com.example.hydrolink_testing.app-merged_res-35:/mipmap-xxhdpi_hydrolink.png.flat",
+        "source": "com.example.hydrolink_testing.app-main-29:/mipmap-xxhdpi/hydrolink.png"
+    },
+    {
+        "merged": "com.example.hydrolink_testing.app-merged_res-35:/drawable-v21_launch_background.xml.flat",
+        "source": "com.example.hydrolink_testing.app-main-29:/drawable-v21/launch_background.xml"
+    },
+    {
+        "merged": "com.example.hydrolink_testing.app-merged_res-35:/mipmap-xhdpi_hydrolink.png.flat",
+        "source": "com.example.hydrolink_testing.app-main-29:/mipmap-xhdpi/hydrolink.png"
+    },
+    {
+        "merged": "com.example.hydrolink_testing.app-merged_res-35:/mipmap-mdpi_hydrolink.png.flat",
+        "source": "com.example.hydrolink_testing.app-main-29:/mipmap-mdpi/hydrolink.png"
+    },
+    {
+        "merged": "com.example.hydrolink_testing.app-merged_res-35:/mipmap-hdpi_hydrolink.png.flat",
+        "source": "com.example.hydrolink_testing.app-main-29:/mipmap-hdpi/hydrolink.png"
+    }
+]

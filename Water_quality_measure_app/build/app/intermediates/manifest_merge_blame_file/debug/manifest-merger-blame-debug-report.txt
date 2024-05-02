@@ -1,0 +1,346 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.hydrolink_testing"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\praba\OneDrive\Documents\GitHub\Water-Quality-Measure-Device\Water_quality_measure_app\android\app\src\debug\AndroidManifest.xml:6:5-66
+15-->C:\Users\praba\OneDrive\Documents\GitHub\Water-Quality-Measure-Device\Water_quality_measure_app\android\app\src\debug\AndroidManifest.xml:6:22-64
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->[:flutter_barcode_scanner] C:\Users\praba\OneDrive\Documents\GitHub\Water-Quality-Measure-Device\Water_quality_measure_app\build\flutter_barcode_scanner\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-65
+16-->[:flutter_barcode_scanner] C:\Users\praba\OneDrive\Documents\GitHub\Water-Quality-Measure-Device\Water_quality_measure_app\build\flutter_barcode_scanner\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-62
+17
+18    <uses-feature android:name="android.hardware.camera" />
+18-->[:flutter_barcode_scanner] C:\Users\praba\OneDrive\Documents\GitHub\Water-Quality-Measure-Device\Water_quality_measure_app\build\flutter_barcode_scanner\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-60
+18-->[:flutter_barcode_scanner] C:\Users\praba\OneDrive\Documents\GitHub\Water-Quality-Measure-Device\Water_quality_measure_app\build\flutter_barcode_scanner\intermediates\merged_manifest\debug\AndroidManifest.xml:11:19-57
+19
+20    <uses-permission android:name="android.permission.FLASHLIGHT" />
+20-->[:flutter_barcode_scanner] C:\Users\praba\OneDrive\Documents\GitHub\Water-Quality-Measure-Device\Water_quality_measure_app\build\flutter_barcode_scanner\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-69
+20-->[:flutter_barcode_scanner] C:\Users\praba\OneDrive\Documents\GitHub\Water-Quality-Measure-Device\Water_quality_measure_app\build\flutter_barcode_scanner\intermediates\merged_manifest\debug\AndroidManifest.xml:13:22-66
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+21-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\praba\.gradle\caches\transforms-3\efdafedc761d6384242dafe3c3821ea4\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:26:5-79
+21-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\praba\.gradle\caches\transforms-3\efdafedc761d6384242dafe3c3821ea4\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:26:22-76
+22
+23    <uses-feature
+23-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\praba\.gradle\caches\transforms-3\3adc2c558c07efacbd6154e511d0d7c1\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:28:5-30:36
+24        android:name="android.hardware.camera.front"
+24-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\praba\.gradle\caches\transforms-3\3adc2c558c07efacbd6154e511d0d7c1\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:29:9-53
+25        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+25-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\praba\.gradle\caches\transforms-3\3adc2c558c07efacbd6154e511d0d7c1\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:30:9-33
+26    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+27    <uses-feature
+27-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\praba\.gradle\caches\transforms-3\3adc2c558c07efacbd6154e511d0d7c1\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:33:5-35:36
+28        android:name="android.hardware.camera.autofocus"
+28-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\praba\.gradle\caches\transforms-3\3adc2c558c07efacbd6154e511d0d7c1\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:34:9-57
+29        android:required="false" />
+29-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\praba\.gradle\caches\transforms-3\3adc2c558c07efacbd6154e511d0d7c1\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:35:9-33
+30    <uses-feature
+30-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\praba\.gradle\caches\transforms-3\3adc2c558c07efacbd6154e511d0d7c1\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:36:5-38:36
+31        android:name="android.hardware.camera.flash"
+31-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\praba\.gradle\caches\transforms-3\3adc2c558c07efacbd6154e511d0d7c1\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:37:9-53
+32        android:required="false" />
+32-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\praba\.gradle\caches\transforms-3\3adc2c558c07efacbd6154e511d0d7c1\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:38:9-33
+33    <uses-feature
+33-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\praba\.gradle\caches\transforms-3\3adc2c558c07efacbd6154e511d0d7c1\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:39:5-41:36
+34        android:name="android.hardware.screen.landscape"
+34-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\praba\.gradle\caches\transforms-3\3adc2c558c07efacbd6154e511d0d7c1\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:40:9-57
+35        android:required="false" />
+35-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\praba\.gradle\caches\transforms-3\3adc2c558c07efacbd6154e511d0d7c1\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:41:9-33
+36    <uses-feature
+36-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\praba\.gradle\caches\transforms-3\3adc2c558c07efacbd6154e511d0d7c1\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:42:5-44:36
+37        android:name="android.hardware.wifi"
+37-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\praba\.gradle\caches\transforms-3\3adc2c558c07efacbd6154e511d0d7c1\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:43:9-45
+38        android:required="false" />
+38-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\praba\.gradle\caches\transforms-3\3adc2c558c07efacbd6154e511d0d7c1\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:44:9-33
+39
+40    <application
+41        android:name="android.app.Application"
+42        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+42-->[androidx.core:core:1.7.0] C:\Users\praba\.gradle\caches\transforms-3\dc5f0e7b7f798281073486fd7ef284b9\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+43        android:debuggable="true"
+44        android:icon="@mipmap/hydrolink"
+45        android:label="hydrolink_testing"
+46        android:largeHeap="true"
+46-->[:flutter_barcode_scanner] C:\Users\praba\OneDrive\Documents\GitHub\Water-Quality-Measure-Device\Water_quality_measure_app\build\flutter_barcode_scanner\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-33
+47        android:theme="@style/Theme.AppCompat.NoActionBar" >
+47-->[:flutter_barcode_scanner] C:\Users\praba\OneDrive\Documents\GitHub\Water-Quality-Measure-Device\Water_quality_measure_app\build\flutter_barcode_scanner\intermediates\merged_manifest\debug\AndroidManifest.xml:17:9-59
+48        <activity
+49            android:name="com.example.hydrolink_testing.MainActivity"
+50            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+51            android:exported="true"
+52            android:hardwareAccelerated="true"
+53            android:launchMode="singleTop"
+54            android:theme="@style/LaunchTheme"
+55            android:windowSoftInputMode="adjustResize" >
+56
+57            <!--
+58                 Specifies an Android theme to apply to this Activity as soon as
+59                 the Android process has started. This theme is visible to the user
+60                 while the Flutter UI initializes. After that, this theme continues
+61                 to determine the Window background behind the Flutter UI.
+62            -->
+63            <meta-data
+64                android:name="io.flutter.embedding.android.NormalTheme"
+65                android:resource="@style/NormalTheme" />
+66
+67            <intent-filter>
+68                <action android:name="android.intent.action.MAIN" />
+69
+70                <category android:name="android.intent.category.LAUNCHER" />
+71            </intent-filter>
+72        </activity>
+73        <!--
+74             Don't delete the meta-data below.
+75             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+76        -->
+77        <meta-data
+78            android:name="flutterEmbedding"
+79            android:value="2" />
+80
+81        <service
+81-->[:firebase_auth] C:\Users\praba\OneDrive\Documents\GitHub\Water-Quality-Measure-Device\Water_quality_measure_app\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
+82            android:name="com.google.firebase.components.ComponentDiscoveryService"
+82-->[:firebase_auth] C:\Users\praba\OneDrive\Documents\GitHub\Water-Quality-Measure-Device\Water_quality_measure_app\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:18-89
+83            android:directBootAware="true"
+83-->[com.google.firebase:firebase-common:20.4.2] C:\Users\praba\.gradle\caches\transforms-3\853ff77fd633abf6fab97fc3314e420f\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:32:13-43
+84            android:exported="false" >
+84-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\praba\.gradle\caches\transforms-3\efdafedc761d6384242dafe3c3821ea4\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:68:13-37
+85            <meta-data
+85-->[:firebase_auth] C:\Users\praba\OneDrive\Documents\GitHub\Water-Quality-Measure-Device\Water_quality_measure_app\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+86                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+86-->[:firebase_auth] C:\Users\praba\OneDrive\Documents\GitHub\Water-Quality-Measure-Device\Water_quality_measure_app\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[:firebase_auth] C:\Users\praba\OneDrive\Documents\GitHub\Water-Quality-Measure-Device\Water_quality_measure_app\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+88            <meta-data
+88-->[:firebase_database] C:\Users\praba\OneDrive\Documents\GitHub\Water-Quality-Measure-Device\Water_quality_measure_app\build\firebase_database\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+89                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
+89-->[:firebase_database] C:\Users\praba\OneDrive\Documents\GitHub\Water-Quality-Measure-Device\Water_quality_measure_app\build\firebase_database\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-127
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[:firebase_database] C:\Users\praba\OneDrive\Documents\GitHub\Water-Quality-Measure-Device\Water_quality_measure_app\build\firebase_database\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+91            <meta-data
+91-->[:firebase_core] C:\Users\praba\OneDrive\Documents\GitHub\Water-Quality-Measure-Device\Water_quality_measure_app\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+92                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+92-->[:firebase_core] C:\Users\praba\OneDrive\Documents\GitHub\Water-Quality-Measure-Device\Water_quality_measure_app\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[:firebase_core] C:\Users\praba\OneDrive\Documents\GitHub\Water-Quality-Measure-Device\Water_quality_measure_app\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+94            <meta-data
+94-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\praba\.gradle\caches\transforms-3\efdafedc761d6384242dafe3c3821ea4\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:69:13-71:85
+95                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+95-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\praba\.gradle\caches\transforms-3\efdafedc761d6384242dafe3c3821ea4\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:70:17-109
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\praba\.gradle\caches\transforms-3\efdafedc761d6384242dafe3c3821ea4\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:71:17-82
+97            <meta-data
+97-->[com.google.firebase:firebase-database:20.3.0] C:\Users\praba\.gradle\caches\transforms-3\ca099e9519ab866172b5a1b1158a6b3d\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:29:13-31:85
+98                android:name="com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar"
+98-->[com.google.firebase:firebase-database:20.3.0] C:\Users\praba\.gradle\caches\transforms-3\ca099e9519ab866172b5a1b1158a6b3d\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:30:17-120
+99                android:value="com.google.firebase.components.ComponentRegistrar" />
+99-->[com.google.firebase:firebase-database:20.3.0] C:\Users\praba\.gradle\caches\transforms-3\ca099e9519ab866172b5a1b1158a6b3d\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:31:17-82
+100            <meta-data
+100-->[com.google.firebase:firebase-database:20.3.0] C:\Users\praba\.gradle\caches\transforms-3\ca099e9519ab866172b5a1b1158a6b3d\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:32:13-34:85
+101                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+101-->[com.google.firebase:firebase-database:20.3.0] C:\Users\praba\.gradle\caches\transforms-3\ca099e9519ab866172b5a1b1158a6b3d\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:33:17-109
+102                android:value="com.google.firebase.components.ComponentRegistrar" />
+102-->[com.google.firebase:firebase-database:20.3.0] C:\Users\praba\.gradle\caches\transforms-3\ca099e9519ab866172b5a1b1158a6b3d\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:34:17-82
+103            <meta-data
+103-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\praba\.gradle\caches\transforms-3\0db8d9baed6fd61ec0bc67ef9142396a\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
+104                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+104-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\praba\.gradle\caches\transforms-3\0db8d9baed6fd61ec0bc67ef9142396a\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
+105                android:value="com.google.firebase.components.ComponentRegistrar" />
+105-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\praba\.gradle\caches\transforms-3\0db8d9baed6fd61ec0bc67ef9142396a\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
+106            <meta-data
+106-->[com.google.firebase:firebase-common:20.4.2] C:\Users\praba\.gradle\caches\transforms-3\853ff77fd633abf6fab97fc3314e420f\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
+107                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+107-->[com.google.firebase:firebase-common:20.4.2] C:\Users\praba\.gradle\caches\transforms-3\853ff77fd633abf6fab97fc3314e420f\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+108                android:value="com.google.firebase.components.ComponentRegistrar" />
+108-->[com.google.firebase:firebase-common:20.4.2] C:\Users\praba\.gradle\caches\transforms-3\853ff77fd633abf6fab97fc3314e420f\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:37:17-82
+109        </service>
+110
+111        <activity android:name="com.amolg.flutterbarcodescanner.BarcodeCaptureActivity" />
+111-->[:flutter_barcode_scanner] C:\Users\praba\OneDrive\Documents\GitHub\Water-Quality-Measure-Device\Water_quality_measure_app\build\flutter_barcode_scanner\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-91
+111-->[:flutter_barcode_scanner] C:\Users\praba\OneDrive\Documents\GitHub\Water-Quality-Measure-Device\Water_quality_measure_app\build\flutter_barcode_scanner\intermediates\merged_manifest\debug\AndroidManifest.xml:18:19-88
+112        <activity
+112-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\praba\.gradle\caches\transforms-3\efdafedc761d6384242dafe3c3821ea4\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:29:9-46:20
+113            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+113-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\praba\.gradle\caches\transforms-3\efdafedc761d6384242dafe3c3821ea4\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:30:13-80
+114            android:excludeFromRecents="true"
+114-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\praba\.gradle\caches\transforms-3\efdafedc761d6384242dafe3c3821ea4\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:31:13-46
+115            android:exported="true"
+115-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\praba\.gradle\caches\transforms-3\efdafedc761d6384242dafe3c3821ea4\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:32:13-36
+116            android:launchMode="singleTask"
+116-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\praba\.gradle\caches\transforms-3\efdafedc761d6384242dafe3c3821ea4\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:33:13-44
+117            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+117-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\praba\.gradle\caches\transforms-3\efdafedc761d6384242dafe3c3821ea4\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:34:13-72
+118            <intent-filter>
+118-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\praba\.gradle\caches\transforms-3\efdafedc761d6384242dafe3c3821ea4\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:35:13-45:29
+119                <action android:name="android.intent.action.VIEW" />
+119-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\praba\.gradle\caches\transforms-3\efdafedc761d6384242dafe3c3821ea4\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:36:17-69
+119-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\praba\.gradle\caches\transforms-3\efdafedc761d6384242dafe3c3821ea4\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:36:25-66
+120
+121                <category android:name="android.intent.category.DEFAULT" />
+121-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\praba\.gradle\caches\transforms-3\efdafedc761d6384242dafe3c3821ea4\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:38:17-76
+121-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\praba\.gradle\caches\transforms-3\efdafedc761d6384242dafe3c3821ea4\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:38:27-73
+122                <category android:name="android.intent.category.BROWSABLE" />
+122-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\praba\.gradle\caches\transforms-3\efdafedc761d6384242dafe3c3821ea4\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:39:17-78
+122-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\praba\.gradle\caches\transforms-3\efdafedc761d6384242dafe3c3821ea4\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:39:27-75
+123
+124                <data
+124-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\praba\.gradle\caches\transforms-3\efdafedc761d6384242dafe3c3821ea4\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:41:17-44:51
+125                    android:host="firebase.auth"
+125-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\praba\.gradle\caches\transforms-3\efdafedc761d6384242dafe3c3821ea4\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:42:21-49
+126                    android:path="/"
+126-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\praba\.gradle\caches\transforms-3\efdafedc761d6384242dafe3c3821ea4\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:43:21-37
+127                    android:scheme="genericidp" />
+127-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\praba\.gradle\caches\transforms-3\efdafedc761d6384242dafe3c3821ea4\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:44:21-48
+128            </intent-filter>
+129        </activity>
+130        <activity
+130-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\praba\.gradle\caches\transforms-3\efdafedc761d6384242dafe3c3821ea4\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:47:9-64:20
+131            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+131-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\praba\.gradle\caches\transforms-3\efdafedc761d6384242dafe3c3821ea4\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:48:13-79
+132            android:excludeFromRecents="true"
+132-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\praba\.gradle\caches\transforms-3\efdafedc761d6384242dafe3c3821ea4\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:49:13-46
+133            android:exported="true"
+133-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\praba\.gradle\caches\transforms-3\efdafedc761d6384242dafe3c3821ea4\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:50:13-36
+134            android:launchMode="singleTask"
+134-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\praba\.gradle\caches\transforms-3\efdafedc761d6384242dafe3c3821ea4\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:51:13-44
+135            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+135-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\praba\.gradle\caches\transforms-3\efdafedc761d6384242dafe3c3821ea4\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:52:13-72
+136            <intent-filter>
+136-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\praba\.gradle\caches\transforms-3\efdafedc761d6384242dafe3c3821ea4\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:53:13-63:29
+137                <action android:name="android.intent.action.VIEW" />
+137-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\praba\.gradle\caches\transforms-3\efdafedc761d6384242dafe3c3821ea4\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:36:17-69
+137-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\praba\.gradle\caches\transforms-3\efdafedc761d6384242dafe3c3821ea4\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:36:25-66
+138
+139                <category android:name="android.intent.category.DEFAULT" />
+139-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\praba\.gradle\caches\transforms-3\efdafedc761d6384242dafe3c3821ea4\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:38:17-76
+139-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\praba\.gradle\caches\transforms-3\efdafedc761d6384242dafe3c3821ea4\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:38:27-73
+140                <category android:name="android.intent.category.BROWSABLE" />
+140-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\praba\.gradle\caches\transforms-3\efdafedc761d6384242dafe3c3821ea4\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:39:17-78
+140-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\praba\.gradle\caches\transforms-3\efdafedc761d6384242dafe3c3821ea4\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:39:27-75
+141
+142                <data
+142-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\praba\.gradle\caches\transforms-3\efdafedc761d6384242dafe3c3821ea4\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:41:17-44:51
+143                    android:host="firebase.auth"
+143-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\praba\.gradle\caches\transforms-3\efdafedc761d6384242dafe3c3821ea4\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:42:21-49
+144                    android:path="/"
+144-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\praba\.gradle\caches\transforms-3\efdafedc761d6384242dafe3c3821ea4\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:43:21-37
+145                    android:scheme="recaptcha" />
+145-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\praba\.gradle\caches\transforms-3\efdafedc761d6384242dafe3c3821ea4\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:44:21-48
+146            </intent-filter>
+147        </activity>
+148
+149        <provider
+149-->[com.google.firebase:firebase-common:20.4.2] C:\Users\praba\.gradle\caches\transforms-3\853ff77fd633abf6fab97fc3314e420f\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
+150            android:name="com.google.firebase.provider.FirebaseInitProvider"
+150-->[com.google.firebase:firebase-common:20.4.2] C:\Users\praba\.gradle\caches\transforms-3\853ff77fd633abf6fab97fc3314e420f\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:24:13-77
+151            android:authorities="com.example.hydrolink_testing.firebaseinitprovider"
+151-->[com.google.firebase:firebase-common:20.4.2] C:\Users\praba\.gradle\caches\transforms-3\853ff77fd633abf6fab97fc3314e420f\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:25:13-72
+152            android:directBootAware="true"
+152-->[com.google.firebase:firebase-common:20.4.2] C:\Users\praba\.gradle\caches\transforms-3\853ff77fd633abf6fab97fc3314e420f\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:26:13-43
+153            android:exported="false"
+153-->[com.google.firebase:firebase-common:20.4.2] C:\Users\praba\.gradle\caches\transforms-3\853ff77fd633abf6fab97fc3314e420f\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:27:13-37
+154            android:initOrder="100" />
+154-->[com.google.firebase:firebase-common:20.4.2] C:\Users\praba\.gradle\caches\transforms-3\853ff77fd633abf6fab97fc3314e420f\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:28:13-36
+155
+156        <uses-library
+156-->[androidx.window:window:1.0.0-beta04] C:\Users\praba\.gradle\caches\transforms-3\7334396b0bdce008b6e6c813cf7d04df\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+157            android:name="androidx.window.extensions"
+157-->[androidx.window:window:1.0.0-beta04] C:\Users\praba\.gradle\caches\transforms-3\7334396b0bdce008b6e6c813cf7d04df\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+158            android:required="false" />
+158-->[androidx.window:window:1.0.0-beta04] C:\Users\praba\.gradle\caches\transforms-3\7334396b0bdce008b6e6c813cf7d04df\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+159        <uses-library
+159-->[androidx.window:window:1.0.0-beta04] C:\Users\praba\.gradle\caches\transforms-3\7334396b0bdce008b6e6c813cf7d04df\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+160            android:name="androidx.window.sidecar"
+160-->[androidx.window:window:1.0.0-beta04] C:\Users\praba\.gradle\caches\transforms-3\7334396b0bdce008b6e6c813cf7d04df\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+161            android:required="false" />
+161-->[androidx.window:window:1.0.0-beta04] C:\Users\praba\.gradle\caches\transforms-3\7334396b0bdce008b6e6c813cf7d04df\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+162
+163        <activity
+163-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\praba\.gradle\caches\transforms-3\5883071850b65383622155fdd602f51a\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:23:9-27:75
+164            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+164-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\praba\.gradle\caches\transforms-3\5883071850b65383622155fdd602f51a\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:24:13-93
+165            android:excludeFromRecents="true"
+165-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\praba\.gradle\caches\transforms-3\5883071850b65383622155fdd602f51a\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:25:13-46
+166            android:exported="false"
+166-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\praba\.gradle\caches\transforms-3\5883071850b65383622155fdd602f51a\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:26:13-37
+167            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+167-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\praba\.gradle\caches\transforms-3\5883071850b65383622155fdd602f51a\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:27:13-72
+168        <!--
+169            Service handling Google Sign-In user revocation. For apps that do not integrate with
+170            Google Sign-In, this service will never be started.
+171        -->
+172        <service
+172-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\praba\.gradle\caches\transforms-3\5883071850b65383622155fdd602f51a\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:33:9-37:51
+173            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+173-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\praba\.gradle\caches\transforms-3\5883071850b65383622155fdd602f51a\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:34:13-89
+174            android:exported="true"
+174-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\praba\.gradle\caches\transforms-3\5883071850b65383622155fdd602f51a\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:35:13-36
+175            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+175-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\praba\.gradle\caches\transforms-3\5883071850b65383622155fdd602f51a\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:36:13-107
+176            android:visibleToInstantApps="true" />
+176-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\praba\.gradle\caches\transforms-3\5883071850b65383622155fdd602f51a\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:37:13-48
+177
+178        <activity
+178-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\praba\.gradle\caches\transforms-3\498162471e8d68a33cdee9d3f7af3b28\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+179            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+179-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\praba\.gradle\caches\transforms-3\498162471e8d68a33cdee9d3f7af3b28\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+180            android:exported="false"
+180-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\praba\.gradle\caches\transforms-3\498162471e8d68a33cdee9d3f7af3b28\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+181            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+181-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\praba\.gradle\caches\transforms-3\498162471e8d68a33cdee9d3f7af3b28\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+182
+183        <meta-data
+183-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\praba\.gradle\caches\transforms-3\b3826edd263d058aff6f001842a3f26f\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:21:9-23:69
+184            android:name="com.google.android.gms.version"
+184-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\praba\.gradle\caches\transforms-3\b3826edd263d058aff6f001842a3f26f\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:22:13-58
+185            android:value="@integer/google_play_services_version" />
+185-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\praba\.gradle\caches\transforms-3\b3826edd263d058aff6f001842a3f26f\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:23:13-66
+186
+187        <provider
+187-->[androidx.emoji2:emoji2:1.0.0] C:\Users\praba\.gradle\caches\transforms-3\b78b53b34629b95ca88707fa2bb4de5e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+188            android:name="androidx.startup.InitializationProvider"
+188-->[androidx.emoji2:emoji2:1.0.0] C:\Users\praba\.gradle\caches\transforms-3\b78b53b34629b95ca88707fa2bb4de5e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+189            android:authorities="com.example.hydrolink_testing.androidx-startup"
+189-->[androidx.emoji2:emoji2:1.0.0] C:\Users\praba\.gradle\caches\transforms-3\b78b53b34629b95ca88707fa2bb4de5e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+190            android:exported="false" >
+190-->[androidx.emoji2:emoji2:1.0.0] C:\Users\praba\.gradle\caches\transforms-3\b78b53b34629b95ca88707fa2bb4de5e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+191            <meta-data
+191-->[androidx.emoji2:emoji2:1.0.0] C:\Users\praba\.gradle\caches\transforms-3\b78b53b34629b95ca88707fa2bb4de5e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+192                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+192-->[androidx.emoji2:emoji2:1.0.0] C:\Users\praba\.gradle\caches\transforms-3\b78b53b34629b95ca88707fa2bb4de5e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+193                android:value="androidx.startup" />
+193-->[androidx.emoji2:emoji2:1.0.0] C:\Users\praba\.gradle\caches\transforms-3\b78b53b34629b95ca88707fa2bb4de5e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+194            <meta-data
+194-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\praba\.gradle\caches\transforms-3\532a284147cebcc0dfab05c1b93fcaf4\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+195                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+195-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\praba\.gradle\caches\transforms-3\532a284147cebcc0dfab05c1b93fcaf4\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+196                android:value="androidx.startup" />
+196-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\praba\.gradle\caches\transforms-3\532a284147cebcc0dfab05c1b93fcaf4\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+197        </provider>
+198
+199        <activity
+199-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\praba\.gradle\caches\transforms-3\3adc2c558c07efacbd6154e511d0d7c1\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:47:9-53:63
+200            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+200-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\praba\.gradle\caches\transforms-3\3adc2c558c07efacbd6154e511d0d7c1\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:48:13-74
+201            android:clearTaskOnLaunch="true"
+201-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\praba\.gradle\caches\transforms-3\3adc2c558c07efacbd6154e511d0d7c1\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:49:13-45
+202            android:screenOrientation="sensorLandscape"
+202-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\praba\.gradle\caches\transforms-3\3adc2c558c07efacbd6154e511d0d7c1\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:50:13-56
+203            android:stateNotNeeded="true"
+203-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\praba\.gradle\caches\transforms-3\3adc2c558c07efacbd6154e511d0d7c1\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:51:13-42
+204            android:theme="@style/zxing_CaptureTheme"
+204-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\praba\.gradle\caches\transforms-3\3adc2c558c07efacbd6154e511d0d7c1\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:52:13-54
+205            android:windowSoftInputMode="stateAlwaysHidden" />
+205-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\praba\.gradle\caches\transforms-3\3adc2c558c07efacbd6154e511d0d7c1\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:53:13-60
+206    </application>
+207
+208</manifest>
